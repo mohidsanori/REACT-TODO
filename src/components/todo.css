@@ -1,0 +1,90 @@
+/* todo.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  /* Main Container */
+  .main-div {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Logo */
+  .logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  /* Add Items Container */
+  .addItems {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .addItems input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .addItems .add-btn {
+    margin-left: 50px;
+    font-size: 20px;
+    color: #666;
+    cursor: pointer;
+  }
+  
+  /* Show Items Container */
+  .showItems {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .each {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: grab;
+  }
+  
+  .each h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+    color: #333;
+  }
+  
+  .delete-btn {
+    font-size: 18px;
+    color: #999;
+    cursor: pointer;
+  }
+
+  figcaption{
+    color: white;
+  }
+  
+  /* Media Queries */
+  @media screen and (max-width: 600px) {
+    .main-div {
+      max-width: 90%;
+    }
+  }
+  
+  
